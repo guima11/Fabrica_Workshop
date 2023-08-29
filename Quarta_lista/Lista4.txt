@@ -5,7 +5,8 @@
 **Listas, pilhas e filas são estruturas de dados com diferentes propriedades e comportamentos**
 
 **Lista:**
-Uma lista é uma coleção ordenada de elementos onde cada elemento é acessado por um índice. Ela não possui restrições específicas sobre como os elementos são inseridos ou removidos.
+Uma lista é uma coleção ordenada de elementos onde cada elemento é acessado por um índice. 
+Ela não possui restrições específicas sobre como os elementos são inseridos ou removidos.
 
 >Exemplo:
 ```py
@@ -14,7 +15,8 @@ print(lista[2])  # Saída: 30
 ```
 
 **Pilha:**
-Uma pilha é uma estrutura de dados baseada no princípio "LIFO" (Last In, First Out), o último elemento inserido é o primeiro a ser removido. É como uma pilha de pratos, onde você adiciona pratos no topo e retira do topo.
+Uma pilha é uma estrutura de dados baseada no princípio "LIFO" (Last In, First Out), o último elemento inserido é o 
+primeiro a ser removido. É como uma pilha de pratos, onde você adiciona pratos no topo e retira do topo.
 
 >Exemplo:
 ```py
@@ -28,7 +30,9 @@ print(pilha.pop())  # Saída: 30
 ```
 
 **Fila:**
-Uma fila é uma estrutura de dados baseada no princípio "FIFO" (First In, First Out), o primeiro elemento inserido é o primeiro a ser removido. É como uma fila de pessoas esperando em um caixa, onde a primeira que chegou é a primeira a ser atendida.
+Uma fila é uma estrutura de dados baseada no princípio "FIFO" (First In, First Out), o primeiro elemento inserido é o 
+primeiro a ser removido. É como uma fila de pessoas esperando em um caixa, onde a primeira que chegou é a primeira a ser 
+atendida.
 
 >Exemplo:
 ```py
@@ -54,7 +58,8 @@ print(primeiro_elemento)  # Saída: 10
 # Exercicios
 
 **1. Fila de Tarefas**
-- Crie um programa que simule uma fila de tarefas a serem executadas. O usuário deve poder adicionar tarefas à fila e retirá-las na ordem em que foram adicionadas.
+- Crie um programa que simule uma fila de tarefas a serem executadas. O usuário deve poder adicionar tarefas à fila e 
+retirá-las na ordem em que foram adicionadas.
 
 ```bash
 DIGITE O QUE FAZER:
@@ -79,7 +84,8 @@ Escolha uma opção: 3
 ```
 
 **2. pilha de Tarefas**
-- parabens ^^ voce conseguiu implementar uma fila, agora modifique o programa anterior mudando a logica de fila para pilha
+- parabens ^^ voce conseguiu implementar uma fila, agora modifique o programa anterior mudando a logica de fila para 
+pilha
 
 ```bash
 DIGITE O QUE FAZER:
