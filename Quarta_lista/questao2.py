@@ -1,8 +1,7 @@
 ##------------------------------------------------------------------------------------------------
 # Autor: Lucas Guimarães 
 
-# Crie um programa que simule uma fila de tarefas a serem executadas. 
-# O usuário deve poder adicionar tarefas à fila e retirá-las na ordem em que foram adicionadas.
+# Modifique o programa anterior mudando a logica de fila para pilha.
 
 ##------------------------------------------------------------------------------------------------
 
@@ -18,7 +17,7 @@ while i == True:
         I = input("Qual tarefa deseja adicionar à fila de tarefas? ")
         Tarefas.append(I)
     elif R == "2":    
-        T = Tarefas.pop(0)
+        T = Tarefas.pop(len(Tarefas)-1)
         print("Foi realizada a tarefa de {}." .format(T))
 
     elif R == "3":
